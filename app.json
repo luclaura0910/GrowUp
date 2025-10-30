@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "KidGrow Teacher",
+    "slug": "kidgrow-teacher",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "platforms": ["ios", "android", "web"],
+  "sdkVersion": "54.0.0",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yourcompany.kidgrowteacher"
+    },
+    "android": {
+      "package": "com.yourcompany.kidgrowteacher"
+    }
+  }
+}
